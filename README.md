@@ -1,4 +1,4 @@
-# TileSequencer
+# Tile Sequencer Game
 
 Click the tiles from 1 to 50 in correct sequence as fast as you can.
 
