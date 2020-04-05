@@ -1,2 +1,1 @@
-# powprashant-gmail.com
-TileSequencer
+# TileSequencer
