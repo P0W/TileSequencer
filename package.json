@@ -1,0 +1,20 @@
+{
+  "name": "TileSequencer",
+  "version": "1.0.0",
+  "description": "Tile Sequencer Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release",
+    "package-win": "electron-packager . tileSequencer --overwrite --asar=true --platform=win32 --arch=ia32  --prune=true --out=release --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-linux": "electron-packager . tileSequencer --overwrite --asar=true --platform=linux --arch=x64  --prune=true --out=release"
+  },
+  "author": "Prashant Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}
